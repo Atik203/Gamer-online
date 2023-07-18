@@ -76,6 +76,7 @@ nav {
 }
 .banner-info {
   text-align: left;
+  margin: 70px auto;
 }
 .banner-description {
 }
@@ -132,6 +133,7 @@ nav {
   font-weight: 600;
   text-transform: uppercase;
 }
+
 /* responsive section */
 
 /* mobile */
@@ -171,6 +173,37 @@ nav {
     margin-top: 10px;
     margin-right: 45px;
   }
+  /* banner section */
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-photo {
+    max-width: 350px;
+    margin: auto;
+  }
+  .banner-info {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    margin: 60px 20px;
+  }
+  .btn {
+    padding: 15px 30px;
+    border-radius: 38px;
+    font-size: 1.2rem;
+  }
+  .btn-2 {
+    border-radius: 38px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  .goat {
+    font-size: 3.5rem;
+  }
 }
 
 /* tablet */
@@ -185,5 +218,12 @@ nav {
     margin: 0px auto;
     height: 200px;
     gap: 40px;
+  }
+  /* banner section */
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-info {
+    margin: 70px auto;
   }
 }
