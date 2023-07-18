@@ -339,10 +339,15 @@ nav {
   .banner-info {
     margin: 50px auto;
   }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
   .card {
-    width: 250px;
-    height: 270px;
-    margin: auto;
+    width: 320px;
+    height: 350px;
+    margin-top: 20px;
   }
   .funny-title {
     margin-top: 50px;
