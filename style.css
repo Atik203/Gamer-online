@@ -68,7 +68,70 @@ nav {
   font-size: 1.2rem;
   font-weight: 500;
 }
-
+/* banner section */
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner-info {
+  text-align: left;
+}
+.banner-description {
+}
+.banner-title {
+  color: #0b0223;
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-list {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.goat {
+  font-size: 5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+.banner-photo-container {
+}
+.banner-photo {
+  max-width: 600px;
+  margin: auto;
+}
+.btn-container {
+  display: flex;
+  gap: 1.4rem;
+  margin-top: 2.5rem;
+}
+.btn {
+  padding: 21px 40px;
+  border-radius: 48px;
+  background: #ff42a5;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.btn-2 {
+  border-radius: 48px;
+  padding: 21px 40px;
+  background: #4ec5f7;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 /* responsive section */
 
 /* mobile */
@@ -114,4 +177,13 @@ nav {
 
 @media screen and (min-width: 576.1px) and (max-width: 992px) {
   /* nav section */
+  nav {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    height: 200px;
+    gap: 40px;
+  }
 }
