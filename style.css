@@ -103,10 +103,11 @@ nav {
   margin-bottom: 20px;
 }
 .banner-photo-container {
-}
-.banner-photo {
   max-width: 600px;
   margin: auto;
+}
+.banner-photo {
+  width: 100%;
 }
 .btn-container {
   display: flex;
