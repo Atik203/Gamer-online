@@ -134,6 +134,8 @@ nav {
   text-transform: uppercase;
 }
 /* main section */
+
+/* funny section */
 .funny-container {
   max-width: 80%;
   margin: auto;
@@ -300,6 +302,21 @@ nav {
   .goat {
     font-size: 3.5rem;
   }
+
+  /* funny section */
+  .card-container {
+    flex-direction: column;
+  }
+  .funny-title {
+    margin-right: 20px;
+    margin-top: 40px;
+    font-size: 2.5rem;
+    margin-left: 0px;
+  }
+  .funny-description {
+    margin-right: 15px;
+    padding-right: 10px;
+  }
 }
 
 /* tablet */
@@ -320,6 +337,19 @@ nav {
     flex-direction: column-reverse;
   }
   .banner-info {
-    margin: 70px auto;
+    margin: 50px auto;
+  }
+  .card {
+    width: 250px;
+    height: 270px;
+    margin: auto;
+  }
+  .funny-title {
+    margin-top: 50px;
+  }
+  .card-description {
+    font-size: 1rem;
+    padding: 5px;
+    margin-bottom: 50px;
   }
 }
