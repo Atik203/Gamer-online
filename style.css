@@ -68,6 +68,15 @@ nav {
   font-size: 1.2rem;
   font-weight: 500;
 }
+.nav-right-container a:hover {
+  color: #f948b2;
+}
+.nav-icon-container > h3 {
+  cursor: pointer;
+}
+.nav-icon-container > h3:hover {
+  color: #f948b2;
+}
 /* banner section */
 .banner-container {
   display: flex;
@@ -123,6 +132,7 @@ nav {
   font-size: 1.25rem;
   font-weight: 600;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .btn-2 {
   border-radius: 48px;
@@ -133,6 +143,13 @@ nav {
   font-size: 1.25rem;
   font-weight: 600;
   text-transform: uppercase;
+  cursor: pointer;
+}
+.btn:hover {
+  color: #1f21be;
+}
+.btn-2:hover {
+  color: #1f21be;
 }
 /* main section */
 
@@ -190,7 +207,7 @@ nav {
 }
 
 .hover-content {
-  border: 2px solid #f948b2;
+  border: 2.5px solid #f948b2;
   border-radius: 16px;
   position: absolute;
   top: 0;
