@@ -378,6 +378,7 @@ footer {
   font-size: 12px;
   font-weight: 500;
 }
+
 /* responsive section */
 
 /* mobile */
@@ -511,6 +512,34 @@ footer {
   }
   .element-caption {
     font-size: 12px;
+  }
+  /* footer section */
+  footer {
+    height: 800px;
+    margin-bottom: 0px;
+  }
+  .icons-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    gap: 30px;
+    padding-left: 20px;
+  }
+  .footer-content > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: -20px;
+  }
+  .info > ul {
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
