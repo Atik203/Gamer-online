@@ -278,6 +278,49 @@ nav {
   height: 340px;
   border-radius: 8px;
 }
+/* elements games section */
+.elements {
+  max-width: 80%;
+  margin: auto;
+}
+.elements-container {
+  margin-top: -50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-left: -30px;
+}
+.elements-container-2 {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 30px;
+  padding-left: 7rem;
+}
+.elements-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 230px;
+  height: 70px;
+  border-radius: 40px;
+  background: #fff;
+  margin-right: 20px;
+  padding: 5px;
+}
+.elements-box:hover {
+  border: 2px solid #f948b2;
+  color: #f948b2;
+}
+.element-caption {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.element-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
 
 /* responsive section */
 
