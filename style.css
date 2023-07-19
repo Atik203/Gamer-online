@@ -282,31 +282,32 @@ nav {
 .elements {
   max-width: 80%;
   margin: auto;
+  height: 200px;
 }
 .elements-container {
-  margin-top: -50px;
+  margin-top: -80px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  margin-left: -30px;
+  gap: 10px;
 }
-.elements-container-2 {
-  width: 70%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin-top: 30px;
-  padding-left: 7rem;
-}
+
 .elements-box {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 8px;
-  width: 230px;
-  height: 70px;
-  border-radius: 40px;
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
   background: #fff;
-  margin-right: 20px;
   padding: 5px;
+  margin-top: 20px;
+}
+.box-2 {
+  margin-left: -70px;
+}
+.box-6 {
+  margin-left: 150px;
 }
 .elements-box:hover {
   border: 2px solid #f948b2;
@@ -317,9 +318,9 @@ nav {
   font-weight: 600;
 }
 .element-photo {
-  width: 60px;
-  height: 60px;
-  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
 }
 
 /* responsive section */
@@ -432,6 +433,30 @@ nav {
     width: 180px;
     height: 220px;
   }
+
+  /* elements games */
+
+  .elements-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .elements-box {
+    width: 100px;
+    height: 35px;
+    margin: 0px;
+  }
+  .element-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+  }
+  .box-2,
+  .box-6 {
+    margin: 0px;
+    padding: 0px;
+  }
+  .element-caption {
+    font-size: 12px;
+  }
 }
 
 /* tablet */
@@ -483,5 +508,30 @@ nav {
     bottom: 170px;
     width: 280px;
     height: 320px;
+  }
+  /* elements games */
+
+  .elements-container {
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 30px;
+    gap: 10px;
+  }
+  .elements-box {
+    width: 120px;
+    height: 50px;
+    margin: 0px;
+  }
+  .element-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+  }
+  .box-2,
+  .box-6 {
+    margin: 0px;
+    padding: 0px;
+  }
+  .element-caption {
+    font-size: 16px;
   }
 }
